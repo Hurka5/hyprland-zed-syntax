@@ -1,0 +1,6 @@
+name = "Hyprland config"
+grammar = "hyprlang"
+path_suffixes = ["hyprland.conf"]
+line_comments = ["# "]
+brackets = [{ start = "{", end = "}", close = true, newline = true }]
+hard_tabs = true

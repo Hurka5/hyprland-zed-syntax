@@ -1,0 +1,12 @@
+id = "hyprland-zed-syntax"
+description = "Hyprland config syntax highlighting"
+name = "Hyprland config"
+version = "0.0.1"
+schema_version = 1
+authors = ["Ágoston Gergő <hurkagergo5@gmail.com>"]
+repository = "https://github.com/Hurka5/hyprland-zed-syntax"
+
+
+[grammars.hyprlang]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-hyprlang"
+rev = "d719158abe537b1916daaea6fa03287089f0b601"
